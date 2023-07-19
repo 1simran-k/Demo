@@ -1,10 +1,22 @@
 
+body{
+    background-color:rgb(249, 199, 224);
+    font-family: serif;
+}
+hr{
+    backgcolor:brown;
+    height:4px;
+}
 h1{
     color:darkmagenta;
+    
 }
 #heading1
 {
-    color: rgb(178, 16, 97);
+    color: rgb(204, 28, 119);
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 5px 1px 1px black;
 }
 .mypara{
     color:blue;
@@ -56,6 +68,7 @@ img[height="399px"]
 {
     border:10px solid  rgb(57, 57, 236);
 }
+
 .button:active{
     padding: 10px;
 }
@@ -93,6 +106,61 @@ ul li:nth-child(3)
     height :300px;
     width:75%;
     height :50%;
+    padding: 30px;
+    margin:50px;
+    border:5px dashed black;
+}
+#text
+{
+    font-size: 40px;
+    color: aliceblue;
+}
+#box
+{
+    height:500px;
+    width:500px;
+    color:aliceblue;
+    font-size:20px;
+    border:5px solid green;
+    padding:50px 50px;
+    margin:50px;
+    background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/41/Sunflower_from_Silesia2.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+}
+#div1
+{
+    height:500px;
+    width:500px;
+    color:aliceblue;
+    border:5px solid green;
+    padding:50px 50px;
+    margin:50px;
+    background-image: url('https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#main-container
+{
+display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content:space-around;
+
+}
+.containers
+{
+    display:block ;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    background-color: #40a3f9;
+    color: white;
+    text-align: center;
+    font-size: 92px;
+    border:5px solid rgb(7, 7, 78);
+
 }
 
 
