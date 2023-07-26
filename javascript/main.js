@@ -126,3 +126,57 @@ array.splice(1, 3) ;
 console.log(array) ;
 array.splice(3,0,82,89);
 console.log(array) ;
+
+let num1 = [1,2,3,4,5];
+let num2 = [5.8,6,7,2];
+let combinedarray = num2.concat(num1) ;
+console.log(combinedarray);
+
+//two dimensional array
+let twoDarray = [[10,20,30],[5,10,15],[20,25,30]];
+console.log(twoDarray);
+console.log(twoDarray[1][1]) ;
+
+let twoDarray1 = [[5,10],[15,20],[25]];
+console.log(twoDarray1);
+console.log(twoDarray1[2][0]);
+//objects 
+let myobj = {
+     name : "userone" ,
+     email : "simran.com" ,
+     password : "employee" , 
+     hobbies : ["painting", "reading books" , "music"] ,
+     address : {
+        street : 123 ,
+        city : "chandigarh",
+        state : "punjab" ,
+        pincodes : [101,254,454]
+     }
+}
+console.log(myobj);
+console.log("hii this is " + myobj.name + " " + " , my email is : " + myobj.email + " "  + " my password is : " + myobj.password) ;
+console.log(`my hobbies are :${myobj.hobbies}`) ;
+console.log(typeof(myobj.hobbies)) ;
+console.log((myobj.hobbies[0])) ;
+console.log(myobj.address.street) ;
+console.log(myobj.address) ;
+console.log(myobj.address.pincodes[1]);
+//myObj camel facing notation 
+myObj1 = new Object()
+myObj1.name = "smaeyra" 
+myObj1.email = "simran.com" 
+myObj1.colors = ["red" ,"blue" , "pink"] 
+myObj1.address = {
+    street : 123 ,
+    country : "switzerland"
+}
+console.log(myObj1.address);
+//arrayofobjects 
+
+
+
+
+
+
+
+
